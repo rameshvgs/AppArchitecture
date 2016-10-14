@@ -1,0 +1,1 @@
+angular.module('socialconnectApp', ['ngRoute', 'appRoutes', 'MainCtrl', 'LoginCtrl', 'SignupCtrl']);

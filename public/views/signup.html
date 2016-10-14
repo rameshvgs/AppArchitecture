@@ -1,0 +1,75 @@
+<div class="breadcrumbs" id="breadcrumbs">
+    <ul class="breadcrumb">
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li class="active">Signup</li>
+    </ul>
+</div>
+<div class="container">
+
+    <div class="row">
+        <div class="col-xs-12 col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0">
+            <form name="loginForm" class="form-horizontal" role="form">
+                <div class="row">
+                    <div class="form-group">
+                        <label class="col-sm-5 control-label " for="email"> Email </label>
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control" placeholder="Email" name="email" ng-model="login.email" required focus/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label class="col-sm-5 control-label " for="password"> Password </label>
+                        <div class="col-sm-7">
+                            <input type="password" class="form-control" placeholder="Password" ng-model="login.password" required/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label class="col-sm-5 control-label " for="password"> Confirm Password </label>
+                        <div class="col-sm-7">
+                            <input type="password" class="form-control" placeholder="Confirm Password" ng-model="login.confirmpassword" required/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label class="col-sm-5 control-label " for="email"> Name </label>
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control" placeholder="Name" name="name" ng-model="login.name" required focus/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label class="col-sm-5 control-label " for="email"> Phone </label>
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control" placeholder="Phone" name="phone" ng-model="login.phone" required focus/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label class="col-sm-5 control-label " for="email"> Addresss </label>
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control" placeholder="Addresss" name="address" ng-model="login.address" required focus/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <button type="submit" class="width-35 pull-md-right btn btn-sm btn-primary" ng-click="doLogin(signup)" data-ng-disabled="signupForm.$invalid">
+                                Signup
+                            </button>
+                        </div>
+                    </div>  
+                </div>
+                <div class="text-md-center text-xs-center">Don't have an account? <a href="/login">Signin</a></div>
+            </form>
+        </div><!-- /position-relative -->
+    </div>
+</div><!-- /.page-content -->
