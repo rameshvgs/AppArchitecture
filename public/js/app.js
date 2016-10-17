@@ -1,1 +1,1 @@
-angular.module('socialconnectApp', ['ngRoute', 'appRoutes', 'MainCtrl', 'LoginCtrl', 'SignupCtrl']);
+angular.module('socialconnectApp', ['ngRoute', 'appRoutes', 'MainCtrl', 'LoginCtrl', 'SignupCtrl', 'DashCtrl']);
